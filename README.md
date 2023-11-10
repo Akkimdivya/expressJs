@@ -126,7 +126,7 @@ Deletes a player from the team (database) based on the player ID
 Player Removed
 ```
 
-<br/>
+<br/> 
 
 Use `npm install` to install the packages.
 
