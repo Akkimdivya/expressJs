@@ -20,6 +20,20 @@ Content-Type: application/json
 }
 
 ###
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+ "id": 6,
+ "todo": "Finalize event theme",
+ "priority": "LOW",
+ "status": "TO DO",
+ "category": "HOME",
+ "dueDate": "2021-02-22"
+}
+
+
+###
 PUT http://localhost:3000/players/13/
 Content-Type: application/json
 
